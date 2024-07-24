@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('assets/CaviarDreams.ttf') format('truetype'),
+}
+
+.App {
+  text-align: center;
+  font-family : 'CaviarDreams'  ;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+
+
+
+
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 70% ;   
+  align-items: center;
+
+}
+
+.list li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  width  : 70%   ;  
+  justify-content: space-between;
+  align-items: center;
+  border-right: 5px solid green;
+}
+
+.list li.minus {
+  width:70%  ; 
+  margin: auto;
+  border-right-color: red;
+}
+
+.list li.plus {
+  width :  70%  ;
+  margin: auto; 
+
+}
+.delete-btn {
+  cursor: pointer;
+  background: #ff4757;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.tlist{
+  width :  70%  ; 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+
+.form-control {
+  margin: 10px 0;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  width: 70%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  cursor: pointer;
+  background: #5d9fe6;
+  border: none;
+  border-radius: 20px   ;  
+  
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.btn:hover {
+  transform: scale(1.05);
+
+}
+
+h4 {
+  margin: 20px 0 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+input {
+  border-radius: 10px  ;
+  border : solid 1px rgb(194, 187, 187)
+
+}
+input:hover{
+  border : solid 1px rgb(194, 187, 187)  ;
+  transform: scale(1.01);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
+}
+
+input{
+  &:focus { 
+    outline: none !important;
+    }
+}
+textarea{
+  &:focus { 
+    outline: none !important;
+    }
+}
+
+
+
+
